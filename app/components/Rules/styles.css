@@ -1,0 +1,31 @@
+.rules {
+  /* stylelint-disable */
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  padding: 10px;
+}
+
+.ruleSection{
+    border-bottom: 1px solid gainsboro;
+}
+
+.ruleTitle{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #046e80;
+}
+
+.rulesContainer{
+    text-align: left;
+}
+
+.rule{
+    font-size: small;
+    line-height: 50px;
+}

@@ -7,3 +7,12 @@
 .container {
   display: block;
 }
+
+body {
+  font-family: Roboto;
+  background-color: #e5e5e5;
+}
+
+* {
+  box-sizing: border-box;
+}

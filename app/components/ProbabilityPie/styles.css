@@ -1,0 +1,135 @@
+.setsize {
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.setsize svg {
+  font-size: 20px;
+}
+
+.probabilityName {
+  text-align: center;
+  line-height: 10px;
+}
+
+.probabilityName p {
+  font-size: 10px;
+  font-size: small;
+  color: gray;
+  width: 80px;
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.chartscontainer:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.piewrapper {
+  height: 1em;
+  width: 1em;
+  float: left;
+  margin: 15px;
+  position: relative;
+}
+
+.piewrapper:nth-child(3n + 1) {
+  clear: both;
+}
+
+.piewrapper .pie {
+  height: 100%;
+  width: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.piewrapper .pie .halfcircle {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #3498db;
+  border-radius: 50%;
+  clip: rect(0, 0.5em, 1em, 0);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.piewrapper .label {
+  background: #34495e;
+  border-radius: 50%;
+  bottom: 0.4em;
+  color: #ecf0f1;
+  cursor: default;
+  display: block;
+  font-size: 0.25em;
+  left: 0.4em;
+  line-height: 2.6em;
+  position: absolute;
+  right: 0.4em;
+  text-align: center;
+  top: 0.4em;
+}
+
+.piewrapper .label .smaller {
+  color: #bdc3c7;
+  font-size: 0.45em;
+  padding-bottom: 20px;
+  vertical-align: super;
+}
+
+.piewrapper .shadow {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #bdc3c7;
+  border-radius: 50%;
+}
+
+.piewrapper.style2 .label {
+  background: none;
+  color: #7f8c8d;
+}
+
+.piewrapper.style2 .label .smaller {
+  color: #bdc3c7;
+}
+
+.piewrapper.progress75 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.piewrapper.progress75 .pie .rightside {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.piewrapper.progress75 .pie .halfcircle {
+  border-color: #1abc9c;
+}
+
+.piewrapper--solid {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.piewrapper--solid:before {
+  border-radius: 0 100% 100% 0%;
+  content: "";
+  display: block;
+  height: 100%;
+  margin-left: 50%;
+  -webkit-transform-origin: left;
+  transform-origin: left;
+}
+
+.piewrapper--solid .label {
+  background: transparent;
+}

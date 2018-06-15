@@ -1,0 +1,107 @@
+.appBarContainer {
+  outline: 2px solid #00B9AE;
+}
+
+.appBar {
+  width: 100%;
+  background-color: #046E80;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabs {
+  width: 100%;
+  background-color: #00B9AE;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabsConteiner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  box-shadow: 0px 3px 2px #C7C6C3;
+}
+
+.tab {
+  text-align: center;
+  font-size: 10px;
+  line-height: 50px;
+  padding: 0 20px;
+  width: 33.3%;
+}
+
+.loginSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.loginSection .username {
+  font-size: small;
+  line-height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.loginSection .pic {
+  padding: 0 10px;
+  line-height: 50px;
+}
+
+.loginSection .pic img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.tab:hover {
+  background-color: #02C3BD;
+}
+
+.tab.active {
+  border-bottom: 2px solid white;
+}
+
+.iconButton {
+  cursor: pointer;
+  margin-left: 10px;
+  line-height: 50px;
+  width: 40px;
+}
+
+.icon {
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+}
+
+.icon:hover {
+  color: #E5E5E5;
+}
+
+.link {
+  font-size: 20px;
+  color: white;
+}
+
+.link:hover {
+  color: #E5E5E5;
+}
+
+.heading {
+  justify-content: center;
+  display: flex;
+  flex-grow: 2;
+  line-height: 50px;
+}
+
+.heading img {
+  width: 50px;
+  height: 50px;
+  margin-top: 2px;
+}

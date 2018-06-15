@@ -10,16 +10,31 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import NavigationContainer from '../../containers/NavigationContainer';
+import LoginContainer from '../../containers/LoginContainer';
+import { isNil } from 'lodash';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
+  static propTypes = {
+    children: React.PropTypes.element,
+  }
 
   render() {
+    const userExists = !isNil(localStorage.getItem('user')) && localStorage.getItem('user') !== '';
+    const user = (userExists) ? JSON.parse(localStorage.getItem('user')) : { name: '' };
+    if (user.name !== '') {
+      return (
+        <div>
+          <NavigationContainer />
+          {this.props.children}
+        </div>
+      );
+    }
     return (
-      <h1>
-        <FormattedMessage {...messages.header} />
-      </h1>
+      <div>
+        <LoginContainer />
+
+      </div>
     );
   }
 }

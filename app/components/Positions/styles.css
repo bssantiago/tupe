@@ -1,0 +1,88 @@
+.positions {
+  background-color: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.positionsContainer {
+  margin: 20px auto 10px auto;
+  padding: 10px 0px 10px 15px;
+}
+
+.positionsHeader {
+  background: #F5F5F5;
+  padding: 10px;
+  font-size: small;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.positionHeader {
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0, 0, 0, .54);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.title {
+  font-size: smaller;
+}
+
+.subTitle {
+  font-weight: bold;
+}
+
+.position {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  padding: 5px;
+}
+
+.position:hover {
+  background-color: #FAFAFA;
+}
+
+.position:last-child {
+  border-bottom: 0;
+}
+
+.columnDigits {
+  width: 10%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.columnDigitsScores {
+  width: 10%;
+  text-align: center;
+}
+
+.columnName {
+  width: 80%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.columnNameTitle {
+  width: 90%;
+  text-align: left;
+}
+
+.footer {
+  border-top: 1px solid #E7E7E7;
+  height: 30px;
+}

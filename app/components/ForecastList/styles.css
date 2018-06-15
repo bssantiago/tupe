@@ -1,0 +1,31 @@
+.forecastList {
+  /* stylelint-disable */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.matchDay {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.matchDayDate {
+    background-color: #0394ac;
+    line-height: 50px;
+    font-size: small;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 3px 2px #c7c6c3;
+    border-bottom: 1px solid gainsboro;
+}
+
+.matchesThisDay {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

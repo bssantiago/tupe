@@ -1,0 +1,60 @@
+.forecasts {
+  /* stylelint-disable */
+  display: flex;
+  flex-direction: column;
+}
+
+.match {
+  width: 50px;
+  font-size: small;
+  margin: 5px;
+  line-height: 19px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 2;
+  cursor: pointer;
+  color: #00afcc;
+  line-height: 100px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  width: 30px;
+  height: 30px;
+}
+
+.predicted {
+  border-left: 4px solid darkseagreen;
+}
+
+.item {
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 270px;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  height: 140px;
+}
+
+::placeholder {
+  color: #f1f1f1;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #f1f1f1;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f1f1f1;
+}

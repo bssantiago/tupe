@@ -1,0 +1,1108 @@
+.wcinfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.loader {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  background-color: #FFF;
+  display: flex;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  text-align: center;
+  border-left: 1px solid gainsboro;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 2;
+  cursor: pointer;
+  color: #00afcc;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: 700;
+}
+
+.matchContainer {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.match {
+  font-size: small;
+  margin: 5px;
+}
+
+.date {
+  font-size: small;
+  color: gray;
+  margin: 5px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  text-align: center;
+}
+
+.resultsTitle {
+  font-size: small;
+  color: black;
+  margin: 5px;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 2;
+  cursor: pointer;
+  color: #00afcc;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: 700;
+}
+
+.flagae {
+  background-position: -16px 0 !important;
+}
+
+.flagru {
+  background-position: -224px -121px !important;
+}
+
+.flagcz {
+  background-position: -64px -33px !important;
+}
+
+.flagma {
+  background-position: -144px -88px !important;
+}
+
+.flagvg {
+  background-position: -16px -165px !important;
+}
+
+.flagfo {
+  background-position: -128px -44px !important;
+}
+
+.flagcl {
+  background-position: -176px -22px !important;
+}
+
+.flaggg {
+  background-position: -240px -44px !important;
+}
+
+.flaggl {
+  background-position: -32px -55px !important;
+}
+
+.flagsc {
+  background-position: -32px -132px !important;
+}
+
+.flagpg {
+  background-position: -240px -110px !important;
+}
+
+.flagyt {
+  background-position: -160px -165px !important;
+}
+
+.flagbs {
+  background-position: -208px -11px !important;
+}
+
+.flagom {
+  background-position: -176px -110px !important;
+}
+
+.flagan {
+  background-position: -112px 0 !important;
+}
+
+.flagrw {
+  background-position: -240px -121px !important;
+}
+
+.flagsz {
+  background-position: -96px -143px !important;
+}
+
+.flagaz {
+  background-position: -240px 0 !important;
+}
+
+.flagtz {
+  background-position: -112px -154px !important;
+}
+
+.flaglu {
+  background-position: -96px -88px !important;
+}
+
+.flagmu {
+  background-position: -144px -99px !important;
+}
+
+.flagax {
+  background-position: -224px 0 !important;
+}
+
+.flaggd {
+  background-position: -192px -44px !important;
+}
+
+.flagtg {
+  background-position: -160px -143px !important;
+}
+
+.flaghk {
+  background-position: -208px -55px !important;
+}
+
+.flagsx {
+  background-position: -64px -143px !important;
+}
+
+.flagby {
+  background-position: -16px -22px !important;
+}
+
+.flagvi {
+  background-position: -32px -165px !important;
+}
+
+.flagsa {
+  background-position: 0 -132px !important;
+}
+
+.flagao {
+  background-position: -128px 0 !important;
+}
+
+.flagbe {
+  background-position: -48px -11px !important;
+}
+
+.flaggp {
+  background-position: -80px -55px !important;
+}
+
+.flagcu {
+  background-position: 0 -33px !important;
+}
+
+.flagiq {
+  background-position: -160px -66px !important;
+}
+
+.flagpt {
+  background-position: -112px -121px !important;
+}
+
+.flagsb {
+  background-position: -16px -132px !important;
+}
+
+.flagtm {
+  background-position: 0 -154px !important;
+}
+
+.flagmg {
+  background-position: -208px -88px !important;
+}
+
+.flagmc {
+  background-position: -160px -88px !important;
+}
+
+.flagpa {
+  background-position: -192px -110px !important;
+}
+
+.flaggw {
+  background-position: -176px -55px !important;
+}
+
+.flagbm {
+  background-position: -144px -11px !important;
+}
+
+.flagfi {
+  background-position: -64px -44px !important;
+}
+
+.flagkw {
+  background-position: -176px -77px !important;
+}
+
+.flagkh {
+  background-position: -64px -77px !important;
+}
+
+.flagtk {
+  background-position: -224px -143px !important;
+}
+
+.flaggb {
+  background-position: -176px -44px !important;
+}
+
+.flagth {
+  background-position: -176px -143px !important;
+}
+
+.flagcg {
+  background-position: -112px -22px !important;
+}
+
+.flagmy {
+  background-position: -208px -99px !important;
+}
+
+.flagsn {
+  background-position: -208px -132px !important;
+}
+
+.flaguy {
+  background-position: -192px -154px !important;
+}
+
+.flagaw {
+  background-position: -208px 0 !important;
+}
+
+.flagnl {
+  background-position: -80px -110px !important;
+}
+
+.flaghn {
+  background-position: -240px -55px !important;
+}
+
+.flagmp {
+  background-position: -64px -99px !important;
+}
+
+.flagcm {
+  background-position: -192px -22px !important;
+}
+
+.flagna {
+  background-position: -240px -99px !important;
+}
+
+.flagfr {
+  background-position: -144px -44px !important;
+}
+
+.flagsomaliland {
+  background-position: -240px -132px !important;
+}
+
+.flagmr {
+  background-position: -96px -99px !important;
+}
+
+.flagal {
+  background-position: -80px 0 !important;
+}
+
+.flagfk {
+  background-position: -96px -44px !important;
+}
+
+.flagjp {
+  background-position: -16px -77px !important;
+}
+
+.flagly {
+  background-position: -128px -88px !important;
+}
+
+.flagtv {
+  background-position: -80px -154px !important;
+}
+
+.flagne {
+  background-position: -16px -110px !important;
+}
+
+.flagnp {
+  background-position: -112px -110px !important;
+}
+
+.flagmo {
+  background-position: -48px -99px !important;
+}
+
+.flagsm {
+  background-position: -192px -132px !important;
+}
+
+.flagca {
+  background-position: -48px -22px !important;
+}
+
+.flagtibet {
+  background-position: -192px -143px !important;
+}
+
+.flagre {
+  background-position: -176px -121px !important;
+}
+
+.flagkr {
+  background-position: -144px -77px !important;
+}
+
+.flagtd {
+  background-position: -128px -143px !important;
+}
+
+.flagnr {
+  background-position: -128px -110px !important;
+}
+
+.flagch {
+  background-position: -128px -22px !important;
+}
+
+.flagbf {
+  background-position: -64px -11px !important;
+}
+
+.flagil {
+  background-position: -96px -66px !important;
+}
+
+.flagsk {
+  background-position: -160px -132px !important;
+}
+
+.flaggt {
+  background-position: -144px -55px !important;
+}
+
+.flagga {
+  background-position: -160px -44px !important;
+}
+
+.flagdm {
+  background-position: -128px -33px !important;
+}
+
+.flagkz {
+  background-position: -208px -77px !important;
+}
+
+.flaggy {
+  background-position: -192px -55px !important;
+}
+
+.flagtn {
+  background-position: -16px -154px !important;
+}
+
+.flagdo {
+  background-position: -144px -33px !important;
+}
+
+.flagin {
+  background-position: -128px -66px !important;
+}
+
+.flagph {
+  background-position: 0 -121px !important;
+}
+
+.flagua {
+  background-position: -128px -154px !important;
+}
+
+.flagsl {
+  background-position: -176px -132px !important;
+}
+
+.flagit {
+  background-position: -208px -66px !important;
+}
+
+.flaguz {
+  background-position: -208px -154px !important;
+}
+
+.flagat {
+  background-position: -176px 0 !important;
+}
+
+.flagas {
+  background-position: -160px 0 !important;
+}
+
+.flagnf {
+  background-position: -32px -110px !important;
+}
+
+.flagss {
+  background-position: -16px -143px !important;
+}
+
+.flaghr {
+  background-position: 0 -66px !important;
+}
+
+.flagva {
+  background-position: -224px -154px !important;
+}
+
+.flagus {
+  background-position: -176px -154px !important;
+}
+
+.flagbz {
+  background-position: -32px -22px !important;
+}
+
+.flageg {
+  background-position: -208px -33px !important;
+}
+
+.flagdk {
+  background-position: -112px -33px !important;
+}
+
+.flagye {
+  background-position: -144px -165px !important;
+}
+
+.flagky {
+  background-position: -192px -77px !important;
+}
+
+.flagkn {
+  background-position: -112px -77px !important;
+}
+
+.flagbo {
+  background-position: -176px -11px !important;
+}
+
+.flagvu {
+  background-position: -64px -165px !important;
+}
+
+.flagcw {
+  background-position: -32px -33px !important;
+}
+
+.flagnz {
+  background-position: -160px -110px !important;
+}
+
+.flagci {
+  background-position: -144px -22px !important;
+}
+
+.flaggn {
+  background-position: -64px -55px !important;
+}
+
+.flagcn {
+  background-position: -208px -22px !important;
+}
+
+.flagbi {
+  background-position: -112px -11px !important;
+}
+
+.flagps {
+  background-position: -96px -121px !important;
+}
+
+.flaglc {
+  background-position: 0 -88px !important;
+}
+
+.flagir {
+  background-position: -176px -66px !important;
+}
+
+.flagwf {
+  background-position: -96px -165px !important;
+}
+
+.flagla {
+  background-position: -224px -77px !important;
+}
+
+.flagck {
+  background-position: -160px -22px !important;
+}
+
+.flagbh {
+  background-position: -96px -11px !important;
+}
+
+.flagto {
+  background-position: -32px -154px !important;
+}
+
+.flagpn {
+  background-position: -64px -121px !important;
+}
+
+.flagnu {
+  background-position: -144px -110px !important;
+}
+
+.flagmt {
+  background-position: -128px -99px !important;
+}
+
+.flaggf {
+  background-position: -224px -44px !important;
+}
+
+.flagke {
+  background-position: -32px -77px !important;
+}
+
+.flagwales {
+  background-position: -80px -165px !important;
+}
+
+.flagfm {
+  background-position: -112px -44px !important;
+}
+
+.flagkg {
+  background-position: -48px -77px !important;
+}
+
+.flaggs {
+  background-position: -128px -55px !important;
+}
+
+.flagag {
+  background-position: -48px 0 !important;
+}
+
+.flagso {
+  background-position: -224px -132px !important;
+}
+
+.flaggr {
+  background-position: -112px -55px !important;
+}
+
+.flagnc {
+  background-position: 0 -110px !important;
+}
+
+.flagbt {
+  background-position: -224px -11px !important;
+}
+
+.flaght {
+  background-position: -16px -66px !important;
+}
+
+.flagml {
+  background-position: 0 -99px !important;
+}
+
+.flagcf {
+  background-position: -96px -22px !important;
+}
+
+.flagar {
+  background-position: -144px 0 !important;
+}
+
+.flagcatalonia {
+  background-position: -64px -22px !important;
+}
+
+.flagad {
+  background-position: 0 0 !important;
+}
+
+.flagzanzibar {
+  background-position: -192px -165px !important;
+}
+
+.flagau {
+  background-position: -192px 0 !important;
+}
+
+.flagst {
+  background-position: -32px -143px !important;
+}
+
+.flagaf {
+  background-position: -32px 0 !important;
+}
+
+.flagsv {
+  background-position: -48px -143px !important;
+}
+
+.flagjo {
+  background-position: 0 -77px !important;
+}
+
+.flagbw {
+  background-position: 0 -22px !important;
+}
+
+.flagrs {
+  background-position: -208px -121px !important;
+}
+
+.flaget {
+  background-position: -32px -44px !important;
+}
+
+.flagdz {
+  background-position: -160px -33px !important;
+}
+
+.flagid {
+  background-position: -64px -66px !important;
+}
+
+.flagbn {
+  background-position: -160px -11px !important;
+}
+
+.flagpm {
+  background-position: -48px -121px !important;
+}
+
+.flagpy {
+  background-position: -144px -121px !important;
+}
+
+.flaglr {
+  background-position: -48px -88px !important;
+}
+
+.flagic {
+  background-position: -48px -66px !important;
+}
+
+.flagis {
+  background-position: -192px -66px !important;
+}
+
+.flager {
+  background-position: 0 -44px !important;
+}
+
+.flagtj {
+  background-position: -208px -143px !important;
+}
+
+.flagam {
+  background-position: -96px 0 !important;
+}
+
+.flaggi {
+  background-position: -16px -55px !important;
+}
+
+.flagsi {
+  background-position: -128px -132px !important;
+}
+
+.flagug {
+  background-position: -144px -154px !important;
+}
+
+.flagcy {
+  background-position: -48px -33px !important;
+}
+
+.flagpr {
+  background-position: -80px -121px !important;
+}
+
+.flaglt {
+  background-position: -80px -88px !important;
+}
+
+.flagtw {
+  background-position: -96px -154px !important;
+}
+
+.flagtl {
+  background-position: -240px -143px !important;
+}
+
+.flagtc {
+  background-position: -112px -143px !important;
+}
+
+.flagli {
+  background-position: -16px -88px !important;
+}
+
+.flagbv {
+  background-position: -240px -11px !important;
+}
+
+.flagki {
+  background-position: -80px -77px !important;
+}
+
+.flagmw {
+  background-position: -176px -99px !important;
+}
+
+.flagmm {
+  background-position: -16px -99px !important;
+}
+
+.flagng {
+  background-position: -48px -110px !important;
+}
+
+.flagbj {
+  background-position: -128px -11px !important;
+}
+
+.flageu {
+  background-position: -48px -44px !important;
+}
+
+.flagni {
+  background-position: -64px -110px !important;
+}
+
+.flaglb {
+  background-position: -240px -77px !important;
+}
+
+.flagmd {
+  background-position: -176px -88px !important;
+}
+
+.flagbd {
+  background-position: -32px -11px !important;
+}
+
+.flagpk {
+  background-position: -16px -121px !important;
+}
+
+.flagio {
+  background-position: -144px -66px !important;
+}
+
+.flagpf {
+  background-position: -224px -110px !important;
+}
+
+.flagba {
+  background-position: 0 -11px !important;
+}
+
+.flagmx {
+  background-position: -192px -99px !important;
+}
+
+.flagsg {
+  background-position: -96px -132px !important;
+}
+
+.flagmv {
+  background-position: -160px -99px !important;
+}
+
+.flagqa {
+  background-position: -160px -121px !important;
+}
+
+.flagpw {
+  background-position: -128px -121px !important;
+}
+
+.flagms {
+  background-position: -112px -99px !important;
+}
+
+.flagxk {
+  background-position: -128px -165px !important;
+}
+
+.flagsr {
+  background-position: 0 -143px !important;
+}
+
+.flagme {
+  background-position: -192px -88px !important;
+}
+
+.flagpl {
+  background-position: -32px -121px !important;
+}
+
+.flageh {
+  background-position: -224px -33px !important;
+}
+
+.flagsj {
+  background-position: -144px -132px !important;
+}
+
+.flagmz {
+  background-position: -224px -99px !important;
+}
+
+.flagie {
+  background-position: -80px -66px !important;
+}
+
+.flagtr {
+  background-position: -48px -154px !important;
+}
+
+.flaglk {
+  background-position: -32px -88px !important;
+}
+
+.flagjm {
+  background-position: -240px -66px !important;
+}
+
+.flagcr {
+  background-position: -240px -22px !important;
+}
+
+.flagzm {
+  background-position: -208px -165px !important;
+}
+
+.flagse {
+  background-position: -80px -132px !important;
+}
+
+.flagsd {
+  background-position: -64px -132px !important;
+}
+
+.flagmk {
+  background-position: -240px -88px !important;
+}
+
+.flagbg {
+  background-position: -80px -11px !important;
+}
+
+.flagim {
+  background-position: -112px -66px !important;
+}
+
+.flages {
+  background-position: -16px -44px !important;
+}
+
+.flagge {
+  background-position: -208px -44px !important;
+}
+
+.flagengland {
+  background-position: -240px -33px !important;
+}
+
+.flagbr {
+  background-position: -192px -11px !important;
+}
+
+.flagtf {
+  background-position: -144px -143px !important;
+}
+
+.flagza {
+  background-position: -176px -165px !important;
+}
+
+.flagcd {
+  background-position: -80px -22px !important;
+}
+
+.flagzw {
+  background-position: -224px -165px !important;
+}
+
+.flaghu {
+  background-position: -32px -66px !important;
+}
+
+.flagje {
+  background-position: -224px -66px !important;
+}
+
+.flaggh {
+  background-position: 0 -55px !important;
+}
+
+.flagec {
+  background-position: -176px -33px !important;
+}
+
+.flagdj {
+  background-position: -96px -33px !important;
+}
+
+.flagro {
+  background-position: -192px -121px !important;
+}
+
+.flaghm {
+  background-position: -224px -55px !important;
+}
+
+.flagvn {
+  background-position: -48px -165px !important;
+}
+
+.flagai {
+  background-position: -64px 0 !important;
+}
+
+.flagtt {
+  background-position: -64px -154px !important;
+}
+
+.flagws {
+  background-position: -112px -165px !important;
+}
+
+.flagkurdistan {
+  background-position: -160px -77px !important;
+}
+
+.flagsh {
+  background-position: -112px -132px !important;
+}
+
+.flagmq {
+  background-position: -80px -99px !important;
+}
+
+.flagno {
+  background-position: -96px -110px !important;
+}
+
+.flagco {
+  background-position: -224px -22px !important;
+}
+
+.flagkp {
+  background-position: -128px -77px !important;
+}
+
+.flaggu {
+  background-position: -160px -55px !important;
+}
+
+.flagfj {
+  background-position: -80px -44px !important;
+}
+
+.flaggm {
+  background-position: -48px -55px !important;
+}
+
+.flagscotland {
+  background-position: -48px -132px !important;
+}
+
+.flagmh {
+  background-position: -224px -88px !important;
+}
+
+.flagmn {
+  background-position: -32px -99px !important;
+}
+
+.flagum {
+  background-position: -160px -154px !important;
+}
+
+.flagde {
+  background-position: -80px -33px !important;
+}
+
+.flagls {
+  background-position: -64px -88px !important;
+}
+
+.flagvc {
+  background-position: -240px -154px !important;
+}
+
+.flaggq {
+  background-position: -96px -55px !important;
+}
+
+.flagee {
+  background-position: -192px -33px !important;
+}
+
+.flagkm {
+  background-position: -96px -77px !important;
+}
+
+.flaglv {
+  background-position: -112px -88px !important;
+}
+
+.flagsy {
+  background-position: -80px -143px !important;
+}
+
+.flagpe {
+  background-position: -208px -110px !important;
+}
+
+.flagcv {
+  background-position: -16px -33px !important;
+}
+
+.flagbb {
+  background-position: -16px -11px !important;
+}
+
+.flagve {
+  background-position: 0 -165px !important;
+}
