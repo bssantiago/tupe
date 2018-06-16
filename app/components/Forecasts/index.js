@@ -46,7 +46,6 @@ class Forecasts extends React.Component { // eslint-disable-line react/prefer-st
         team2_pred: team2,
         isPredicted: this.state.isPredicted,
         isBlocked: true,
-        // match_date: 
       };
       this.props.makePrediction(prediction);
       this.setState({
@@ -56,6 +55,8 @@ class Forecasts extends React.Component { // eslint-disable-line react/prefer-st
   }
 
   render() {
+    const status = this.props.match.status === 'FINISHED' || this.props.match.status === 'IN_PLAY';
+    const viewStyle = status ? { display: 'none' } : {};
     const showProbabilities = isNil(this.props.match.prediction.probabilities)
       ? <div></div>
       : <Probability probs={this.props.match.prediction.probabilities} team1Name={this.props.match.team1} team2Name={this.props.match.team2} />;
@@ -78,12 +79,12 @@ class Forecasts extends React.Component { // eslint-disable-line react/prefer-st
 
           <div className={styleswc.results}>
             <div className={styleswc.resultsTitle}>&nbsp;</div>
-            <input defaultValue={this.props.match.prediction.isPredicted ? this.props.match.prediction.team1 : ''} type="number" min="0" className={classNames(styles.match, styleswc.input)} placeholder="0" ref={(f) => { this.team1Field = f; }} />
-            <input defaultValue={this.props.match.prediction.isPredicted ? this.props.match.prediction.team2 : ''} type="number" min="0" className={classNames(styles.match, styleswc.input)} placeholder="0" ref={(f) => { this.team2Field = f; }} />
+            <input disabled={status} defaultValue={this.props.match.prediction.isPredicted ? this.props.match.prediction.team1 : ''} type="number" min="0" className={classNames(styles.match, styleswc.input)} placeholder="0" ref={(f) => { this.team1Field = f; }} />
+            <input disabled={status} defaultValue={this.props.match.prediction.isPredicted ? this.props.match.prediction.team2 : ''} type="number" min="0" className={classNames(styles.match, styleswc.input)} placeholder="0" ref={(f) => { this.team2Field = f; }} />
 
           </div>
 
-          <div className={styles.button}>
+          <div className={styles.button} style={viewStyle}>
             <div className={styleswc.go} onClick={this.makePrediction}>GO!</div>
           </div>
         </div>

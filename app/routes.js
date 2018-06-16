@@ -13,12 +13,6 @@ const loadModule = (cb) => (componentModule) => {
   cb(null, componentModule.default);
 };
 
-function isNilOrEmptyOrStatusUknown(obj) {
-  const userExists = !isNil(localStorage.getItem('user')) && localStorage.getItem('user') !== '';
-  const isUnknown = userExists ? !isNil(JSON.parse(localStorage.getItem('user')).status) : false;
-  return userExists || isUnknown;
-}
-
 function requireAuth(nextState, replace, callback) {
   const userExists = !isNil(localStorage.getItem('user')) && localStorage.getItem('user') !== '';
   const user = (userExists) ? JSON.parse(localStorage.getItem('user')) : { name: '' };

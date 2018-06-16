@@ -49,6 +49,8 @@ class Login extends React.Component { // eslint-disable-line react/prefer-statel
     this.props.loginFacebook(response);
   }
 
+  // FB test: 503134626770474
+  // FB prod: 2536100859948701
   render() {
     return (
       <div className={styles.login}>

@@ -4,7 +4,7 @@ import { REQUEST_MATCHES, TOKEN, ISO_COUNTRIES, SAVE_PREDICTION, REQUEST_MATCHES
 import { takeLatest } from 'redux-saga';
 import { call, put } from 'redux-saga/effects';
 import { requestMatchesSuccedded, requestMatchesFailed, savePredictionSuccedded, savePredictionFailed, getPredictionsFailed, getPredictionsSuccedded } from './actions';
-import { map, isNil, find, filter } from 'lodash';
+import { map, isNil, find } from 'lodash';
 
 const header = new Headers({
   'X-Auth-Token': TOKEN,
@@ -73,9 +73,8 @@ export function getPredictions(action) {
 function* fetchMatchs() {
   try {
     const matches = yield call(fetchMathcesFromServer);
-    const justTimed = filter(matches.fixtures, x => x.status === 'TIMED');
 
-    const result = map(justTimed, (item) => {
+    const result = map(matches.fixtures, (item) => {
       const matchId = item._links.self.href.substr(item._links.self.href.lastIndexOf('/') + 1);
       const getCountryCode = (name) => (find(ISO_COUNTRIES, (cc) => cc.cname === name));
       return {
